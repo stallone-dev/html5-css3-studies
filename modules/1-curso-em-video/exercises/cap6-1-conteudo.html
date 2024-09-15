@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Aula 2 - Imagens e Favicon</title>
+</head>
+<body>
+    <header>
+        <h1>Aula 2 - Imagens e Favicon</h1>
+        <hr>
+    </header>
+
+    <main>
+        <h3>Sobre direitos autorais</h3>
+        <p>
+            Na internet, assim como na vida, qualquer conteúdo produzido por alguém pode (e é preferível que esteja) sujeito a uma licença, na qual é definida a autoria, permissões e restrições de uso <br>
+
+            Para conteúdos em geral, as licenças mais comum são da família <strong><a href="https://creativecommons.org/licenses/list.en" target="_blank">Creative Commons</a></strong>, nas quais há diferentes níveis de permissão universalmente entendidas no âmbito legal <br>
+
+            Algumas das licenças são:
+        </p>
+
+        <ul>
+            <li><strong>CC0</strong> - Domínio público</li>
+            <li><strong>BY</strong>- Obrigação de atribuição</li>
+            <li><strong>BY-SA</strong> -OAtribuição + Derivação sob igual licença</li>
+            <li><strong>BY-NC</strong> - Atribuição + Uso não-comercial</li>
+            <li><strong>BY-ND</strong> - Atribuição + Proibido derivar o conteúdo</li>
+            <li><strong>BY-NC-SA</strong> - Atribuição + Uso não-comercial + Derivação sob igual licença</li>
+            <li><strong>BY-NC-ND</strong> - Atribuição + Uso não-comercial + Proibido derivar o conteúdo</li>
+        </ul>
+
+        <p>
+            De modo geral, deve-se evitar utilizar imagens ou quaisquer conteúdos da internet sem a devida confirmação sobre o conteúdo estar ou não liberado na licença
+        </p>
+
+        <hr>
+
+        <h3>Sobre imagens</h3>
+        <p>
+            Para trabalhar com imagens nas páginas, é necessário se atentar a 2 pontos:
+
+            <ul>
+                <li>Tamanho (dimensão)</li>
+                <li>Tamanho (bytes)</li>
+            </ul>
+
+            Idealmente deve-se operar com imagens do tamanho certo, minimizando o consumo de memória e requisição de dados.
+        </p>
+
+        <p><strong>Exemplo:</strong></p>
+
+        <p>
+            Esta imagem tem tamanho 600px: // 51,3 Kb<br>
+
+            <img src="assets/600px.jpg" alt="Ciclista em alta velocidade durante treino"> <br>
+
+            Esta tem tamanho 200px // 11,5 Kb: <br>
+            <img src="assets/200px.jpg" alt="Ciclista em alta velocidade durante treino"> <br>
+
+            Esta é a imagem original 853px // 264,9kb<br>
+            <img src="assets/ORIGINAL.jpg" alt="Ciclista em alta velocidade durante treino"> <br>
+            
+            Esta é a mesma imagem com otimizações de compressão: 853px // 158 Kb (41% mais leve) <br>
+            <img src="assets/ORIGINAL_comprimida.jpg" alt="Imagem anterior porém comprimida em 41%">
+        </p>
+
+        <p>
+            Dimensionar corretamente as imagens e comprimí-las em função do uso, são táticas excelentes para otimização de SEO
+        </p>
+
+        <hr>
+
+        <h3>Sobre FAVICON</h3>
+        <p>
+            Favicon é uma imagem especial definida no <strong>header</strong> da página HTML, com o objetivo de servir de ícone da página. <br>
+
+            Idealmmente deve-se utilizar uma imagem do tipo img.ico para melhor compatibilidade, porém outros formatos, como PNG e SVG também são válidos
+        </p>
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!--Tag especial para caracterização de um HTML para o navegador-->
+<!DOCTYPE html>
+
+<!-- Tag de identificação da linguagem-base utilizada na página, útil para acessibilidade -->
+<html lang="pt-br">
+ 
+<!-- 
+    A tag <head> diz respeito Pasconfigurações da página que são "invisíveis" 
+    para o usuário final, úteis para chamadas de scripts e conteúdos externos
+    que precisam ser executados antes ou durante a navegação na página
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Aqui fica o título da página que aparece no navegador -->
+    <title>Aula 0 - primeiro HTML</title>
+</head>
+
+<!--
+    A tag <body> é essencialmente o local onde ficarão os conteúdos visíveis
+    tudo que estiver interagível, visível ou consumível pelo usuário final
+    estará dentro desta tag
+-->
+<body>
+    <main>
+        <h1>Olá Mundo</h1>
+        <hr>
+        <p>Meu primeiro arquivo HTML</p>
+    </main>
+
+<!--
+    A tag "Script" evoca comandos JAVASCRIPT dentro da página, é uma convensão
+    deixar o script ao final do arquivo, após todo o conteúdo, para garantir
+    a ordem de carregamento dos itens
+    
+    OBS: Caso o script tente executar algum comando que envolva algum elemento
+    não-carregado da página, o mesmo entrará em estado de erro.
+-->
+<script></script>
+
+</body>
+</html>

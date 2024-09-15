@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1 - Parágrafos, caracteres e quebras</title>
+</head>
+<body>
+    <header>
+        <h1> Aula 1 - Parágrafos, caracteres e quebras</h1>
+        <hr>
+    </header>
+    <main>
+
+        <h3>Sobre parágrafos e quebras</h3>
+        <p>Para o HTML, a quebra de linha (no arquivo index.html) não tem valor semântico, portanto adicionar quebras de linha manuais resultará em um texto contínuo, uma vez que elas são ignoradas</p>
+
+        <p><strong>Exemplo:</strong></p>
+        <p>
+            Lorem ipsum dolor 
+            sit, amet consectetur 
+            adipisicing elit. 
+            Velit odit 
+            recusandae saepe vel, 
+            reprehenderit veniam 
+            pariatur voluptates 
+            id natus possimus 
+            rerum eos excepturi rem 
+            deserunt non sunt itaque similique amet.
+        </p>
+
+        <p>Para adicionar quebras de linha, é preciso indicar a tag "br" (break Row)</p>
+
+        <p><strong>Exemplo:</strong>
+        <p>
+            Lorem ipsum dolor 
+            <br> sit, amet consectetur 
+            <br> adipisicing elit. 
+            <br> Velit odit 
+            <br> recusandae saepe vel, 
+            <br> reprehenderit veniam 
+            <br> pariatur voluptates 
+            <br> id natus possimus 
+            <br> rerum eos excepturi rem 
+            <br> deserunt non sunt itaque similique amet.
+        </p>
+
+        <hr>
+
+        <h3>Sobre caracteres especiais</h3>
+
+        <p>
+            No HTML, assim como em qualquer linguagem, há caracteres reservados para fins de tokenização do texto, tornando possível o mapeamento para interpretação e compilação do código em algo útil ao computador <br>
+        
+            No caso do HTML, o principal símbolo reservado são os <strong>colchetes angulares "&lt;" e "&gt;" </strong>, para escrevê-los é preciso indiciar a chamada especial <em>"& lt" e "& gt"</em>
+        </p>
+
+        <p>
+            Um caso especial são os <a href="https://emojipedia.org/" target="_blank">EMOJIs</a>, os quais são itens da tabela UNICODE que representam símbolos quando traduzidos pelo decoder UTF-8 <br>
+        
+            Para que o HTML entenda o código UNICODE diretamente, é preciso utilizar a chamada especial "<strong>&#x(CODE)</strong>" onde "(CODE)" é o código UNICODE
+        </p>
+
+        <p><strong>Exemplo:</strong></p>
+        <p>
+            &#x2705 = #x2705 <br>
+            &#x1F601 = #x1F601 <br>
+            &#x1F639 = #x1F639 <br>
+            &#x1F436 = #x1F436 <br>   
+            &#x1F525 = #x1F525 <br>
+        </p>
+    </main>
+</body>
+</html>
