@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 5 - Listas</title>
+</head>
+<body>
+    <header>
+        <h1>Aula 5 - Listas</h1>
+        <hr>
+    </header>
+
+    <main>
+        <h3>
+           Sobre listas no HTML
+        </h3>
+        <p>
+            No HTML, é possível criar elementos similares a listas, permitindo assim a ordenação, enumeração e simplificação do processo de listagem de elementos.
+        </p>
+
+        <p>
+            Os tipos de listas são:
+
+            <ul type="disc">
+                <li><strong>&lt;ol&gt;</strong> => Lista ordenada de itens</li>
+                <li><strong>&lt;ul&gt;</strong> => Lista não-ordenada de itens</li>
+            </ul>
+
+            Dentro de cada um deles, é preciso declarar o <strong>item</strong> da lista através da tag:
+
+            <ul type="disc">
+                <li><strong>&lt;li&gt;</strong> => Item da lista</li>
+            </ul>
+        </p>
+
+        <hr>
+        <h3>
+            Listas ordenadas
+        </h3>
+
+        <p>
+            Listas ordenadas são listas com a características de enumeração, no HTML esses valores são automaticamente calculados conforem a quantidade de itens dentro da tag <strong>&lt;ol&gt;</strong>.
+            <br>
+            <em>Exemplo:</em>
+        </p>
+
+        <!-- Lista ordenada -->
+        <ol>
+            <li>🐕</li>
+            <li>🐈</li>
+            <li>🐖</li>
+        </ol>
+
+
+        <h3>Listas não-ordenadas</h3>
+
+        <p>
+            Listas não-ordenadas são usualmente usadas em itens que serão apenas pontuados na página, sem contagem / enumeração, e são feitas através da tag <strong>&lt;ul&gt;</strong>.
+            <br>
+            <em>Exemplo:</em>
+        </p>
+
+        <!-- Lista não-ordenada -->
+        <ul>
+            <li>🐕</li>
+            <li>🐈</li>
+            <li>🐖</li>
+        </ul>
+
+        <hr>
+
+        <h3>Propriedades das listas</h3>
+        <p>
+            Dentro das tags <strong>&lt;ol&gt;</strong> e <strong>&lt;ul&gt;</strong> existe uma propriedade especial chamada <strong>type</strong>, na qual pode modificar o elemento antecessor de cada item da lista.
+            <br>
+            
+            Para o caso da lista ordenada, <strong>&lt;ol&gt;</strong>, os valores válidos são: <br>
+
+            <ul>
+                <li><strong>type = "1"</strong> => Lista numerica // PADRÃO</li>
+                <li><strong>type = "a"</strong> => Lista alfabética minúscula</li>
+                <li><strong>type = "A"</strong> => Lista alfabética maiúscula</li>
+                <li><strong>type = "i"</strong> => Lista em algarismos romanos minúsculos</li>
+                <li><strong>type = "I"</strong> => Lista em algarismos romanos maiúsculos</li>
+            </ul>
+
+            <br>
+
+            Para o caso da lista não-ordenada, <strong>&lt;ul&gt;</strong>, os valores válidos são: <br>
+            <ul>
+                <li><strong>type = "disc"</strong> => Lista em formato de esfera // PADRÃO</li>
+                <li><strong>type = "circle"</strong> => Lista em formato de círculo vazio</li>
+                <li><strong>type = "square"</strong> => Lista em formato de pequenos quadrados</li>
+            </ul>
+        </p>
+    </main>
+</body>
+</html>
